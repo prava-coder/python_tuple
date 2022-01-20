@@ -1,0 +1,11 @@
+mylist = list()
+print("Enter 10 elements for the tuple: ")
+for i in range(10):
+    mylist.append(input())
+
+mytuple =tuple(mylist)
+
+revtuple = mytuple[::-1]
+
+print("\nOriginal Tuple:", mytuple)
+print("Reversed Tuple:", revtuple)
